@@ -22,5 +22,4 @@ StartActivity(typeof(ExplorerActivity));
 
 ### Screenshots:
 
-![iOS](/images/screenshot_ios.png)
-![Android](/images/screenshot_android.png)
+![iOS](/images/screenshot_ios.png) ![Android](/images/screenshot_android.png)
