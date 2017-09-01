@@ -3,6 +3,7 @@ using System.Runtime.CompilerServices;
 
 // Information about this assembly is defined by the following attributes. 
 // Change them to the values specific to your project.
+using Foundation;
 
 [assembly: AssemblyTitle("AkavacheExplorer.iOS")]
 [assembly: AssemblyDescription("")]
@@ -24,3 +25,5 @@ using System.Runtime.CompilerServices;
 
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
+
+[assembly: LinkerSafe]

@@ -82,9 +82,6 @@
     <Reference Include="Akavache.Sqlite3">
       <HintPath>..\..\packages\akavache.sqlite3.5.0.0\lib\Portable-Net45+Win8+WP8+Wpa81\Akavache.Sqlite3.dll</HintPath>
     </Reference>
-    <Reference Include="AkavacheExplorer.Droid">
-      <HintPath>..\..\packages\AkavacheExplorer.Droid.1.0.0\lib\monoandroid71\AkavacheExplorer.Droid.dll</HintPath>
-    </Reference>
     <Reference Include="Java.Interop" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +109,10 @@
     <ProjectReference Include="..\AkavacheExplorerSample\AkavacheExplorerSample.csproj">
       <Project>{AD26F4F8-8044-4DA0-B692-3139B5E1A452}</Project>
       <Name>AkavacheExplorerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AkavacheExplorer.Droid\AkavacheExplorer.Droid.csproj">
+      <Project>{9A309EFE-D237-4C84-B550-060E859ACAF7}</Project>
+      <Name>AkavacheExplorer.Droid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

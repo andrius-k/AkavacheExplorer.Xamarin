@@ -121,9 +121,6 @@
     <Reference Include="Akavache.Sqlite3">
       <HintPath>..\..\packages\akavache.sqlite3.5.0.0\lib\Portable-Net45+Win8+WP8+Wpa81\Akavache.Sqlite3.dll</HintPath>
     </Reference>
-    <Reference Include="AkavacheExplorer.iOS">
-      <HintPath>..\..\packages\AkavacheExplorer.iOS.1.0.0\lib\xamarinios10\AkavacheExplorer.iOS.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -154,6 +151,10 @@
     <ProjectReference Include="..\AkavacheExplorerSample\AkavacheExplorerSample.csproj">
       <Project>{AD26F4F8-8044-4DA0-B692-3139B5E1A452}</Project>
       <Name>AkavacheExplorerSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AkavacheExplorer.iOS\AkavacheExplorer.iOS.csproj">
+      <Project>{F5645A82-A653-44E2-BDC6-4F95A66A5F60}</Project>
+      <Name>AkavacheExplorer.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

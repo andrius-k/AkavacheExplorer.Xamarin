@@ -3,6 +3,7 @@ using System.Runtime.CompilerServices;
 
 // Information about this assembly is defined by the following attributes. 
 // Change them to the values specific to your project.
+using Android;
 
 [assembly: AssemblyTitle("AkavacheExplorer.Droid")]
 [assembly: AssemblyDescription("")]
@@ -24,3 +25,5 @@ using System.Runtime.CompilerServices;
 
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
+
+[assembly: LinkerSafe]
