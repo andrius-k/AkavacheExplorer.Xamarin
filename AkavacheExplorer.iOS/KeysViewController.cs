@@ -1,8 +1,8 @@
-﻿using System;
-
+using System;
 using UIKit;
 using Akavache;
 using System.Reactive.Linq;
+using Foundation;
 
 namespace AkavacheExplorer.iOS
 {
@@ -11,7 +11,7 @@ namespace AkavacheExplorer.iOS
         private UIBarButtonItem _doneButton;
         private KeysTableViewSource _source;
 
-        public KeysViewController() : base("KeysViewController", null)
+        public KeysViewController (IntPtr handle) : base (handle)
         {
         }
 
@@ -19,14 +19,14 @@ namespace AkavacheExplorer.iOS
         {
             base.ViewDidLoad();
 
-            Title = "Local Machine";
+            Title = NSBundle.MainBundle.LocalizedString("title_local_machine", "");
 
             try
             {
-				var keys = await BlobCache.LocalMachine.GetAllKeys();
-				_source = new KeysTableViewSource(keys);
+                var keys = await BlobCache.LocalMachine.GetAllKeys();
+                _source = new KeysTableViewSource(keys);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 _source = new KeysTableViewSource(new string[0]);
                 Console.WriteLine($"Exception retrieving keys: {ex.Message}");
@@ -36,7 +36,8 @@ namespace AkavacheExplorer.iOS
             tableView.Source = _source;
             tableView.ReloadData();
 
-            _doneButton = new UIBarButtonItem("Done", UIBarButtonItemStyle.Done, null);
+            _doneButton = new UIBarButtonItem(NSBundle.MainBundle.LocalizedString("title_done", ""), 
+                                              UIBarButtonItemStyle.Done, null);
             _doneButton.Clicked += DoneButton_Clicked;
             NavigationItem.RightBarButtonItem = _doneButton;
         }
@@ -50,7 +51,9 @@ namespace AkavacheExplorer.iOS
 
         private void Source_ItemSelected(object sender, TableViewEventArgs args)
         {
-            var dataController = new DataViewController(args.Key);
+            var dataController = (DataViewController)Helpers.Storyboard
+                                                            .InstantiateViewController("DataViewController");
+            dataController.SetKey(args.Key);
             NavigationController.PushViewController(dataController, true);
         }
 
@@ -68,4 +71,3 @@ namespace AkavacheExplorer.iOS
         }
     }
 }
-

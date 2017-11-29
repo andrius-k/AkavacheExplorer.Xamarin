@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="library_name">AkavacheExplorer.Droid</string>
+	<string name="title_local_machine">Local Machine</string>
+	<string name="title_view_as_json">Json</string>
+	<string name="title_view_as_text">Text</string>
+	<string name="title_view_as_image">Image</string>
 </resources>

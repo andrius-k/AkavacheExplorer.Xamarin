@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>AkavacheExplorer.Droid</RootNamespace>
     <AssemblyName>AkavacheExplorer.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>

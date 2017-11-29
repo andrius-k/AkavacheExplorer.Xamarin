@@ -41,10 +41,28 @@ namespace AkavacheExplorer.Droid
 		{
 			
 			// aapt resource value: 0x7f040000
-			public static int datatTextView = 2130968576;
+			public static int contentRadioGroup = 2130968576;
+			
+			// aapt resource value: 0x7f040005
+			public static int datatTextView = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public static int imageView = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public static int listView = 2130968583;
+			
+			// aapt resource value: 0x7f040003
+			public static int radio_image = 2130968579;
 			
 			// aapt resource value: 0x7f040001
-			public static int listView = 2130968577;
+			public static int radio_json = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public static int radio_text = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public static int textScrollView = 2130968580;
 			
 			static Id()
 			{
@@ -83,6 +101,18 @@ namespace AkavacheExplorer.Droid
 			
 			// aapt resource value: 0x7f030000
 			public static int library_name = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public static int title_local_machine = 2130903041;
+			
+			// aapt resource value: 0x7f030004
+			public static int title_view_as_image = 2130903044;
+			
+			// aapt resource value: 0x7f030002
+			public static int title_view_as_json = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public static int title_view_as_text = 2130903043;
 			
 			static String()
 			{

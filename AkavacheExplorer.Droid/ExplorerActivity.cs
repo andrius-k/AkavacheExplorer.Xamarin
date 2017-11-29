@@ -1,14 +1,9 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Akavache;
 using System.Reactive.Linq;
@@ -27,7 +22,7 @@ namespace AkavacheExplorer.Droid
 
             SetContentView(Resource.Layout.activity_keys);
 
-            Title = "Local Machine";
+            Title = Resources.GetString(Resource.String.title_local_machine);
 
             _listView = FindViewById<ListView>(Resource.Id.listView);
 

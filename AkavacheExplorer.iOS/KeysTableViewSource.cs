@@ -1,6 +1,5 @@
 ﻿using System;
 using UIKit;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Foundation;

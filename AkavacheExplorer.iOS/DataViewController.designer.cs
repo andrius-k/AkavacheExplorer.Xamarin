@@ -16,13 +16,40 @@ namespace AkavacheExplorer.iOS
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIImageView imageView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISegmentedControl segmentedControl { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextView textView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIToolbar toolbar { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
+            if (imageView != null) {
+                imageView.Dispose ();
+                imageView = null;
+            }
+
+            if (segmentedControl != null) {
+                segmentedControl.Dispose ();
+                segmentedControl = null;
+            }
+
             if (textView != null) {
                 textView.Dispose ();
                 textView = null;
+            }
+
+            if (toolbar != null) {
+                toolbar.Dispose ();
+                toolbar = null;
             }
         }
     }
