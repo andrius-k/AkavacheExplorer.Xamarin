@@ -26,22 +26,22 @@ namespace AkavacheExplorerSample.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::AkavacheExplorer.Droid.Resource.Id.contentRadioGroup = global::AkavacheExplorerSample.Droid.Resource.Id.contentRadioGroup;
-			global::AkavacheExplorer.Droid.Resource.Id.datatTextView = global::AkavacheExplorerSample.Droid.Resource.Id.datatTextView;
-			global::AkavacheExplorer.Droid.Resource.Id.imageView = global::AkavacheExplorerSample.Droid.Resource.Id.imageView;
-			global::AkavacheExplorer.Droid.Resource.Id.listView = global::AkavacheExplorerSample.Droid.Resource.Id.listView;
-			global::AkavacheExplorer.Droid.Resource.Id.radio_image = global::AkavacheExplorerSample.Droid.Resource.Id.radio_image;
-			global::AkavacheExplorer.Droid.Resource.Id.radio_json = global::AkavacheExplorerSample.Droid.Resource.Id.radio_json;
-			global::AkavacheExplorer.Droid.Resource.Id.radio_text = global::AkavacheExplorerSample.Droid.Resource.Id.radio_text;
-			global::AkavacheExplorer.Droid.Resource.Id.textScrollView = global::AkavacheExplorerSample.Droid.Resource.Id.textScrollView;
-			global::AkavacheExplorer.Droid.Resource.Layout.activity_data = global::AkavacheExplorerSample.Droid.Resource.Layout.activity_data;
-			global::AkavacheExplorer.Droid.Resource.Layout.activity_keys = global::AkavacheExplorerSample.Droid.Resource.Layout.activity_keys;
-			global::AkavacheExplorer.Droid.Resource.Layout.list_item = global::AkavacheExplorerSample.Droid.Resource.Layout.list_item;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_content_radio_group = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_content_radio_group;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_data_text_view = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_data_text_view;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_image_view = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_image_view;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_list_view = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_list_view;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_radio_image = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_radio_image;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_radio_json = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_radio_json;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_radio_text = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_radio_text;
+			global::AkavacheExplorer.Droid.Resource.Id.explorer_text_scroll_view = global::AkavacheExplorerSample.Droid.Resource.Id.explorer_text_scroll_view;
+			global::AkavacheExplorer.Droid.Resource.Layout.explorer_activity_data = global::AkavacheExplorerSample.Droid.Resource.Layout.explorer_activity_data;
+			global::AkavacheExplorer.Droid.Resource.Layout.explorer_activity_keys = global::AkavacheExplorerSample.Droid.Resource.Layout.explorer_activity_keys;
+			global::AkavacheExplorer.Droid.Resource.Layout.explorer_list_item = global::AkavacheExplorerSample.Droid.Resource.Layout.explorer_list_item;
+			global::AkavacheExplorer.Droid.Resource.String.explorer_title_local_machine = global::AkavacheExplorerSample.Droid.Resource.String.explorer_title_local_machine;
+			global::AkavacheExplorer.Droid.Resource.String.explorer_title_view_as_image = global::AkavacheExplorerSample.Droid.Resource.String.explorer_title_view_as_image;
+			global::AkavacheExplorer.Droid.Resource.String.explorer_title_view_as_json = global::AkavacheExplorerSample.Droid.Resource.String.explorer_title_view_as_json;
+			global::AkavacheExplorer.Droid.Resource.String.explorer_title_view_as_text = global::AkavacheExplorerSample.Droid.Resource.String.explorer_title_view_as_text;
 			global::AkavacheExplorer.Droid.Resource.String.library_name = global::AkavacheExplorerSample.Droid.Resource.String.library_name;
-			global::AkavacheExplorer.Droid.Resource.String.title_local_machine = global::AkavacheExplorerSample.Droid.Resource.String.title_local_machine;
-			global::AkavacheExplorer.Droid.Resource.String.title_view_as_image = global::AkavacheExplorerSample.Droid.Resource.String.title_view_as_image;
-			global::AkavacheExplorer.Droid.Resource.String.title_view_as_json = global::AkavacheExplorerSample.Droid.Resource.String.title_view_as_json;
-			global::AkavacheExplorer.Droid.Resource.String.title_view_as_text = global::AkavacheExplorerSample.Droid.Resource.String.title_view_as_text;
 			global::Splat.Resource.String.library_name = global::AkavacheExplorerSample.Droid.Resource.String.library_name;
 		}
 		
@@ -78,31 +78,31 @@ namespace AkavacheExplorerSample.Droid
 		{
 			
 			// aapt resource value: 0x7f060000
-			public const int contentRadioGroup = 2131099648;
+			public const int explorer_content_radio_group = 2131099648;
 			
 			// aapt resource value: 0x7f060005
-			public const int datatTextView = 2131099653;
+			public const int explorer_data_text_view = 2131099653;
 			
 			// aapt resource value: 0x7f060006
-			public const int imageView = 2131099654;
+			public const int explorer_image_view = 2131099654;
 			
 			// aapt resource value: 0x7f060007
-			public const int listView = 2131099655;
-			
-			// aapt resource value: 0x7f060008
-			public const int openButton = 2131099656;
+			public const int explorer_list_view = 2131099655;
 			
 			// aapt resource value: 0x7f060003
-			public const int radio_image = 2131099651;
+			public const int explorer_radio_image = 2131099651;
 			
 			// aapt resource value: 0x7f060001
-			public const int radio_json = 2131099649;
+			public const int explorer_radio_json = 2131099649;
 			
 			// aapt resource value: 0x7f060002
-			public const int radio_text = 2131099650;
+			public const int explorer_radio_text = 2131099650;
 			
 			// aapt resource value: 0x7f060004
-			public const int textScrollView = 2131099652;
+			public const int explorer_text_scroll_view = 2131099652;
+			
+			// aapt resource value: 0x7f060008
+			public const int open_button = 2131099656;
 			
 			static Id()
 			{
@@ -118,13 +118,13 @@ namespace AkavacheExplorerSample.Droid
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int activity_data = 2130968576;
+			public const int explorer_activity_data = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int activity_keys = 2130968577;
+			public const int explorer_activity_keys = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int list_item = 2130968578;
+			public const int explorer_list_item = 2130968578;
 			
 			// aapt resource value: 0x7f040003
 			public const int Main = 2130968579;
@@ -158,26 +158,23 @@ namespace AkavacheExplorerSample.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050006
-			public const int app_name = 2131034118;
-			
 			// aapt resource value: 0x7f050005
-			public const int hello = 2131034117;
+			public const int app_name = 2131034117;
+			
+			// aapt resource value: 0x7f050001
+			public const int explorer_title_local_machine = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int explorer_title_view_as_image = 2131034116;
+			
+			// aapt resource value: 0x7f050002
+			public const int explorer_title_view_as_json = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int explorer_title_view_as_text = 2131034115;
 			
 			// aapt resource value: 0x7f050000
 			public const int library_name = 2131034112;
-			
-			// aapt resource value: 0x7f050001
-			public const int title_local_machine = 2131034113;
-			
-			// aapt resource value: 0x7f050004
-			public const int title_view_as_image = 2131034116;
-			
-			// aapt resource value: 0x7f050002
-			public const int title_view_as_json = 2131034114;
-			
-			// aapt resource value: 0x7f050003
-			public const int title_view_as_text = 2131034115;
 			
 			static String()
 			{

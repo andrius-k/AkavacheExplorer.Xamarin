@@ -41,6 +41,8 @@ namespace AkavacheExplorerSample.iOS
                 await BlobCache.LocalMachine.Insert("image", imageByteArray);
             }
 
+            Console.WriteLine(NSBundle.MainBundle.LocalizedString("title_local_machine", ""));
+
             openButton.TouchUpInside += (sender, e) => 
             {
 				// Simply present navigation controller

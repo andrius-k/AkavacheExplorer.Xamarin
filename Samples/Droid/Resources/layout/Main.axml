@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <Button
-        android:id="@+id/openButton"
+        android:id="@+id/open_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Open Akavache Explorer" />

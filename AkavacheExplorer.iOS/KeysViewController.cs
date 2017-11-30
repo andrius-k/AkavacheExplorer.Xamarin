@@ -19,7 +19,7 @@ namespace AkavacheExplorer.iOS
         {
             base.ViewDidLoad();
 
-            Title = NSBundle.MainBundle.LocalizedString("title_local_machine", "");
+            Title = NSBundle.MainBundle.LocalizedString("explorer_title_local_machine", "");
 
             try
             {
@@ -36,7 +36,7 @@ namespace AkavacheExplorer.iOS
             tableView.Source = _source;
             tableView.ReloadData();
 
-            _doneButton = new UIBarButtonItem(NSBundle.MainBundle.LocalizedString("title_done", ""), 
+            _doneButton = new UIBarButtonItem(NSBundle.MainBundle.LocalizedString("explorer_title_done", ""), 
                                               UIBarButtonItemStyle.Done, null);
             _doneButton.Clicked += DoneButton_Clicked;
             NavigationItem.RightBarButtonItem = _doneButton;

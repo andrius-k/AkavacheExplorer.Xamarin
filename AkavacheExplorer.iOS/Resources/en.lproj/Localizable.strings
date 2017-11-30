@@ -1,5 +1,5 @@
-﻿"title_local_machine" = "Local Machine";
-"title_done" = "Done";
-"title_view_as_json" = "Json";
-"title_view_as_text" = "Text";
-"title_view_as_image" = "Image";
+﻿"explorer_title_local_machine" = "Local Machine";
+"explorer_title_done" = "Done";
+"explorer_title_view_as_json" = "Json";
+"explorer_title_view_as_text" = "Text";
+"explorer_title_view_as_image" = "Image";

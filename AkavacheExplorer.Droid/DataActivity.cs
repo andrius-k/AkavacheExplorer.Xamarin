@@ -29,14 +29,14 @@ namespace AkavacheExplorer.Droid
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.activity_data);
+            SetContentView(Resource.Layout.explorer_activity_data);
 
-            _radioGroup = FindViewById<RadioGroup>(Resource.Id.contentRadioGroup);
-            _textScrollView = FindViewById<ScrollView>(Resource.Id.textScrollView);
-            _textView = FindViewById<TextView>(Resource.Id.datatTextView);
-            _imageView = FindViewById<ImageView>(Resource.Id.imageView);
+            _radioGroup = FindViewById<RadioGroup>(Resource.Id.explorer_content_radio_group);
+            _textScrollView = FindViewById<ScrollView>(Resource.Id.explorer_text_scroll_view);
+            _textView = FindViewById<TextView>(Resource.Id.explorer_data_text_view);
+            _imageView = FindViewById<ImageView>(Resource.Id.explorer_image_view);
 
-            _radioGroup.Check(Resource.Id.radio_json);
+            _radioGroup.Check(Resource.Id.explorer_radio_json);
             _radioGroup.CheckedChange += RadioGroup_CheckedChange;
 
             _key = Intent?.GetStringExtra(LOCAL_STORE_KEY);
@@ -60,15 +60,15 @@ namespace AkavacheExplorer.Droid
 
         private async void RadioGroup_CheckedChange(object sender, RadioGroup.CheckedChangeEventArgs e)
         {
-            if(e.CheckedId == Resource.Id.radio_json)
+            if(e.CheckedId == Resource.Id.explorer_radio_json)
             {
                 await ViewAsJson();
             }
-            else if (e.CheckedId == Resource.Id.radio_text)
+            else if (e.CheckedId == Resource.Id.explorer_radio_text)
             {
                 await ViewAsText();
             }
-            else if (e.CheckedId == Resource.Id.radio_image)
+            else if (e.CheckedId == Resource.Id.explorer_radio_image)
             {
                 await ViewAsImage();
             }

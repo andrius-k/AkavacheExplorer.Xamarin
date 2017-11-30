@@ -20,16 +20,16 @@ namespace AkavacheExplorer.Droid
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.activity_keys);
+            SetContentView(Resource.Layout.explorer_activity_keys);
 
-            Title = Resources.GetString(Resource.String.title_local_machine);
+            Title = Resources.GetString(Resource.String.explorer_title_local_machine);
 
-            _listView = FindViewById<ListView>(Resource.Id.listView);
+            _listView = FindViewById<ListView>(Resource.Id.explorer_list_view);
 
 			try
 			{
                 _keys = await BlobCache.LocalMachine.GetAllKeys();
-                _listView.Adapter = new ArrayAdapter<string>(this, Resource.Layout.list_item, _keys.ToArray());
+                _listView.Adapter = new ArrayAdapter<string>(this, Resource.Layout.explorer_list_item, _keys.ToArray());
 			}
 			catch (Exception ex)
 			{

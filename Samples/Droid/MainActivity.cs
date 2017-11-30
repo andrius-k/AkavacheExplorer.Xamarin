@@ -42,7 +42,7 @@ namespace AkavacheExplorerSample.Droid
                 await BlobCache.LocalMachine.Insert("image", bytes);
             }
             
-            var openButton = FindViewById<Button>(Resource.Id.openButton);
+            var openButton = FindViewById<Button>(Resource.Id.open_button);
             openButton.Click += (sender, e) => 
             {
 				// Simply start ExplorerActivity

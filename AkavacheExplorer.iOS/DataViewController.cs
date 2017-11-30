@@ -34,9 +34,9 @@ namespace AkavacheExplorer.iOS
             toolbar.Delegate = this;
 
             segmentedControl.RemoveAllSegments();
-            segmentedControl.InsertSegment(NSBundle.MainBundle.LocalizedString("title_view_as_json", ""), 0, false);
-            segmentedControl.InsertSegment(NSBundle.MainBundle.LocalizedString("title_view_as_text", ""), 1, false);
-            segmentedControl.InsertSegment(NSBundle.MainBundle.LocalizedString("title_view_as_image", ""), 2, false);
+            segmentedControl.InsertSegment(NSBundle.MainBundle.LocalizedString("explorer_title_view_as_json", ""), 0, false);
+            segmentedControl.InsertSegment(NSBundle.MainBundle.LocalizedString("explorer_title_view_as_text", ""), 1, false);
+            segmentedControl.InsertSegment(NSBundle.MainBundle.LocalizedString("explorer_title_view_as_image", ""), 2, false);
             segmentedControl.SelectedSegment = 0;
             segmentedControl.ValueChanged += SegmentedControl_ValueChanged;
 
@@ -70,6 +70,9 @@ namespace AkavacheExplorer.iOS
             base.ViewWillDisappear(animated);
 
             segmentedControl.ValueChanged -= SegmentedControl_ValueChanged;
+
+            if (_navHairline != null)
+                _navHairline.Hidden = false;
         }
 
         [Export("positionForBar:")]

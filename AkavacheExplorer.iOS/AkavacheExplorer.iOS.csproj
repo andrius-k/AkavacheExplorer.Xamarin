@@ -12,7 +12,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>AkavacheExplorer.iOS</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>Andrius Kirilovas</Authors>
     <Description>This packages allows to examine the contents of your Xamarin iOS app's Akavache cache. Explorer will not attempt to modify the content of the cache in any way.</Description>
   </PropertyGroup>

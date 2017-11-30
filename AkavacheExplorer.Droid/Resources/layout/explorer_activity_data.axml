@@ -4,34 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RadioGroup
-        android:id="@+id/contentRadioGroup"
+        android:id="@+id/explorer_content_radio_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/radio_json"
+            android:id="@+id/explorer_radio_json"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/title_view_as_json" />
+            android:text="@string/explorer_title_view_as_json" />
         <RadioButton
-            android:id="@+id/radio_text"
+            android:id="@+id/explorer_radio_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/title_view_as_text" />
+            android:text="@string/explorer_title_view_as_text" />
         <RadioButton
-            android:id="@+id/radio_image"
+            android:id="@+id/explorer_radio_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/title_view_as_image" />
+            android:text="@string/explorer_title_view_as_image" />
     </RadioGroup>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ScrollView
-            android:id="@+id/textScrollView"
+            android:id="@+id/explorer_text_scroll_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <TextView
@@ -39,10 +39,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="8dp"
-                android:id="@+id/datatTextView" />
+                android:id="@+id/explorer_data_text_view" />
         </ScrollView>
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/explorer_image_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </FrameLayout>

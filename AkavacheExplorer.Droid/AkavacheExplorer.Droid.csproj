@@ -16,7 +16,7 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
     <PackageId>AkavacheExplorer.Droid</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>Andrius Kirilovas</Authors>
     <Description>This packages allows to examine the contents of your Xamarin Android app's Akavache cache. Explorer will not attempt to modify the content of the cache in any way.</Description>
     <PackOnBuild>true</PackOnBuild>
@@ -99,9 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
-    <AndroidResource Include="Resources\layout\activity_keys.axml" />
-    <AndroidResource Include="Resources\layout\list_item.axml" />
-    <AndroidResource Include="Resources\layout\activity_data.axml" />
+    <AndroidResource Include="Resources\layout\explorer_activity_keys.axml" />
+    <AndroidResource Include="Resources\layout\explorer_list_item.axml" />
+    <AndroidResource Include="Resources\layout\explorer_activity_data.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\layout\" />
